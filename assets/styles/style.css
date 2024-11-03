@@ -1,0 +1,49 @@
+body {
+  background-color: thistle;
+}
+header {
+  display: grid;
+  text-align: center;
+}
+.osnova {
+  background-color: moccasin;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 200px;
+  text-align: center;
+}
+.esho {
+  background-color: khaki;
+  display: grid;
+  grid-row-start: 2;
+  gap: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.esho1 {
+  display: grid;
+}
+.esho2 {
+  display: grid;
+  grid-column-start: 2;
+}
+.esho3 {
+  display: grid;
+  text-align: center;
+  padding-left: 250px;
+}
+.podval {
+  display: grid;
+  background-color: aliceblue;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px;
+  text-align: center;
+}
+.section {
+  display: grid;
+}
+aside {
+  background-color: aquamarine;
+  display: grid;
+  padding: 10px;
+}
